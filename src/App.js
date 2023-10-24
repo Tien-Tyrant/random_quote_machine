@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Quote from './Quote';
 
+//https://random-quote-machine.freecodecamp.rocks/
+
 class App extends React.Component 
 {
   constructor(props) {
