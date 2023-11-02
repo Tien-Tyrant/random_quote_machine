@@ -7,17 +7,16 @@ class Quote extends React.Component{
 
     render() {
         return (
-            <div class="quote-content">
-            <div id="text">
-         <p>
-          {this.props.quote}
-          </p>
-        </div>
-        <div id="author">
-        <p>
-            {this.props.author}
-          </p>
-        </div>
+            <div className="quote-content">
+                <div className='quote-text'>
+                    <i className="fa fa-quote-left"></i>
+                    <span id="text"> {this.props.quote}</span>
+                </div>
+                <div id="author">
+                    <p>
+                        - {this.props.author}
+                    </p>
+                </div>
             </div>
         );
     }
