@@ -72,15 +72,9 @@ class App extends React.Component
   }
 
   setColor(color){
-    // $("html body").css('background-color', color);
-    // $("html body").css('color', color);
-    $('html body').animate(
-      {
-        backgroundColor: color,
-        color: color
-      },
-      1000
-    );
+    $("html body").css('background-color', color);
+    $("html body").css('color', color);
+
     $("#new-quote").css('background-color', color);
     $("#tweet-quote").css('background-color', color);
   }
